@@ -1,0 +1,126 @@
+.i-com{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.i-left {
+    top: 3rem;
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14%;
+}
+
+.i-name>:nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.i-name>:nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.i-name>:nth-child(3) {
+    color: var(--black);
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+.i-button {
+    width: 6rem;
+    margin-left: 15%;
+}
+
+.i-icons {
+    display: flex;
+    gap: 0rem;
+    margin: -0.5rem 0 0 12%;
+}
+
+.i-icons>* {
+    transform: scale(0.4);
+}
+
+.i-icons>*:hover {
+    cursor: pointer;
+}
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+
+.i-right img {
+    transform: scale(0.79);
+    margin-top: -6em;
+    filter: drop-shadow(0 0 0.95rem rgb(255, 153, 0));
+}
+
+.ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, rgba(247,247,247,1) -100%, rgba(0,0,0,1) 75%, rgba(0,212,255,0) 22%);
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.ball:nth-child(1) {
+    top: 33%;
+    left: 44%;
+    transform: translate(100%, -50%);
+}
+
+.ball:nth-child(2) {
+    top: -16%;
+    left: 29%;
+    width: 60px;
+    height: 60px;
+    transform: translate(50%, 100%);
+}
+
+.ball:nth-child(3) {
+    top: 10%;
+    left: 17%;
+    transform: translate(-100%, -50%);
+}
+
+.ball:nth-child(4) {
+    top: 27%;
+    left: 21%;
+    transform: translate(-100%, 50%);
+}
+
+.ball:nth-child(5) {
+    top: 13%; 
+    left: 55%;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%, -100%);
+}
+
+.ball:nth-child(6) {
+    top: 47%; 
+    left: 5%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -100%);
+}
+
+@media (max-width: 1250px) {
+    .ball-container {
+        display: none;
+    }
+}

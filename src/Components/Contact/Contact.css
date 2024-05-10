@@ -1,0 +1,66 @@
+.c-com {
+  height: 70vh;
+  display: flex;
+}
+
+.c-left {
+  flex: 1;
+}
+
+.c-img {
+  transform: scale(1.5);
+  display: block;
+  margin: 20% auto 0 auto; 
+}
+
+.c-right {
+  flex: 1;
+  display: flex;
+  align-items: center; 
+}
+
+form {
+  width: 60%; 
+  margin: auto; 
+  border: 2px solid var(--secOrange);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+form span {
+    display: flex;
+    justify-content: center;
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.form-con {
+  margin-bottom: 20px; 
+}
+
+label {
+  font-weight: bold; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px; 
+  border: 1px solid var(--orange);
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #007bff; /* Highlight input on focus */
+}
+
+.c-button {
+    width: 20%;
+}

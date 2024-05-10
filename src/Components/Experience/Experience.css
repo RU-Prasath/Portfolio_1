@@ -1,0 +1,50 @@
+.e-com {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  
+  .e-img {
+    display: flex;
+  }
+  
+  .e-img ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .e-img ul li {
+    margin-right: 120px; 
+  }
+  
+  .e-img ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  .e-img ul li img {
+    width: 350px; 
+    height: 350px; 
+    object-fit: contain;
+    filter: drop-shadow(0 0 0.95rem rgb(255, 153, 0));
+}
+  
+  .experience-info {
+    margin-top: 15px; 
+    text-align: center;
+  }
+  
+  .experience-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--orange);
+  }
+  
+  .experience-topic {
+    margin-top: 12px;
+    font-weight: bold;
+    color: var(--black);
+  }
+  
